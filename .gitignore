@@ -1,0 +1,18 @@
+# .pth files
+*.pth
+# .pyc files
+*.pyc
+# # .png files
+# *.png
+
+# confusion matrix
+confusion*
+
+# raw data files
+/GAMEEMO
+
+# wandb
+/wandb
+
+# model files
+/attention_visualizations
