@@ -6,9 +6,11 @@ This repo is a project that applies the model from the paper “Attention-based 
 This project is implemented in Python.
 
 ## Model Architecture
-![2dcnn_arch](https://github.com/EonSeungSeong/Emotion-Recognition-in-EEG-Datasets-Using-Multi-Instance-Learning/blob/main/assets/assets/AttentionMIL2D.png)
+![2dcnn_arch](./assets/AttentionMIL2D.png)
+> baseline Conv2D model
 
-![1dcnn_arch](https://github.com/EonSeungSeong/Emotion-Recognition-in-EEG-Datasets-Using-Multi-Instance-Learning/blob/main/assets/assets/AttentionMIL1D.png)
+![1dcnn_arch](./assets/AttentionMIL1D.png)
+> modified Conv1D model
 
 ## Installation & Run
 ```bash
@@ -18,16 +20,16 @@ python baseline.py
 > **Note**: wheels are available for Linux and MacOS. & need to have a Wandb account.
 
 ## Visualization
-![G3](https://github.com/EonSeungSeong/Emotion-Recognition-in-EEG-Datasets-Using-Multi-Instance-Learning/blob/main/assets/assets/bag_17_class_2_attention_heatmap.png)
+![G3](./assets/bag_17_class_2_attention_heatmap.png)
 > G3 : Horror
 
-![G4](https://github.com/EonSeungSeong/Emotion-Recognition-in-EEG-Datasets-Using-Multi-Instance-Learning/blob/main/assets/assets/bag_7_class_3_attention_heatmap.png)
+![G4](./assets/bag_7_class_3_attention_heatmap.png)
 > G4 : Funny
 
-![G1](https://github.com/EonSeungSeong/Emotion-Recognition-in-EEG-Datasets-Using-Multi-Instance-Learning/blob/main/assets/assets/bag_6_class_0_attention_heatmap.png)
+![G1](./assets/bag_6_class_0_attention_heatmap.png)
 > G1 : Boring
 
-![G2](https://github.com/EonSeungSeong/Emotion-Recognition-in-EEG-Datasets-Using-Multi-Instance-Learning/blob/main/assets/assets/bag_7_class_1_attention_heatmap.png)
+![G2](./assets/bag_7_class_1_attention_heatmap.png)
 > G2 : Calm
 
 ## Citation
