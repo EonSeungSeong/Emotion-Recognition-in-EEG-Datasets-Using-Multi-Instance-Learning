@@ -5,6 +5,11 @@ This repo is a term project from the “AI for Electroencephalography data” ma
 This repo is a project that applies the model from the paper “Attention-based Deep Multiple Instance Learning” to an EEG dataset.
 This project is implemented in Python.
 
+## Team
+**Dong-Eon Lee**
+
+**Eon-Seung Seong**
+
 ## Model Architecture
 ![2dcnn_arch](./assets/AttentionMIL2D.png)
 > baseline Conv2D model
